@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:"PingFang SC","Microsoft YaHei","微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.clearFix:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.kemi-logo{
+    cursor: pointer;
+    float: left;
+    padding-left: 15%;
+    margin-top: 27px;
+}
+.kemi-trade{
+    color: #000;
+    position: absolute;
+}
+.kemi-trade-foot{
+    position: absolute;
+    color: #ccc;
+}
+/*.kemi-logo img{
+    width: 180px;
+}*/
+nav {
+    float: right;
+    margin-right: 17%;
+}
+@media (max-width: 1068px){
+    .kemi-logo{
+        padding-left: 5%;
+    }
+    nav {
+        float: right;
+        margin-right: 0%;
+    }
+}
+nav a {
+    display: inline-block;
+    margin: 30px 0px;
+    padding: 0px 25px;
+    border-right: 1px solid #111;
+    font-size: 16px;
+    color: #111;
+}
+
+nav a:nth-child(5){
+    border: none;
+}
+
+.border-bot {
+    border-bottom: 2px solid #ffbc00;
+    padding-bottom: 7px;
+}
+
+.header-img {
+    font-size: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-img {
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    background-color: #f2f3f7;
+}
+
+.section-img img {
+    display: inline-block;
+    height: auto;
+    width: 60%;
+    margin: 50px 0;
+}
+
+/*开始招聘信息*/
+.section-content {
+    width: 60%;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.recruit-content {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.recruit-title {
+    margin-top: 50px;
+    margin-bottom: 45px;
+    text-align: left;
+    color: #666;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom: 1px solid #ced3d7;
+    padding-bottom: 10px;
+}
+.recruit-title h4{
+    font-weight: 300;
+}
+.jobs-contents{
+    height: 734px;    
+    overflow: hidden;  
+    border: none;
+    padding-bottom: 30px;
+}
+.jobs-lists{
+    float: left;
+    box-sizing: border-box;
+    width: 22%;
+    margin-right: 2%;
+    text-align: center;
+    height: 55px;
+
+}
+.job-name{
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    color: #666666;
+    margin-bottom: 20px;
+    border: 1px solid #ced3d7;
+}
+.job-name.chosen{
+    border: 1px solid #ffbc00;
+    color: #ffbc00;
+}
+.job-description{
+    overflow-y: scroll;
+    float: left;
+    box-sizing: border-box;
+    width: 76%;
+    height: 734px;
+    border: 1px solid #ced3d7;
+}
+.description-content{
+    display: none;
+    color: #666;
+    padding: 20px 30px;
+    line-height: 30px;
+    font-size: 14px;
+    cursor: default;
+}
+.description-title{
+    font-size: 16px;
+    color: #555555;
+}
+.important-title{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400
+}
+.showItem{
+    display: block;
+}
+.job-description::-webkit-scrollbar{    
+    width: 6px;
+}/* 滚动槽 */
+.job-description::-webkit-scrollbar-track{    
+    -webkit-box-shadow: inset 0 0 6px rgba(241,241,241);
+}/* 滚动条滑块 */
+.job-description::-webkit-scrollbar-thumb {    
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.email-text {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 20px;
+    color: #333;
+}
+/*招聘信息结束*/
+
+
+
+/*底部开始*/
+.kemi_footer{
+    width: 100%;
+    background-color: #000000;
+    color: #818181;
+    cursor: default;
+}
+.footer-content{
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 30px;
+}
+.footer-content-left{
+    width: 80%;
+}
+.footer-content-left p{
+    line-height: 30px;
+    font-size: 12px;
+}
+.footer-content-left p:nth-child(3){
+    color: #808080;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.footer-contents{
+    width: 50%;
+    float: left;
+}
+.footer-contents a{
+    display: block;
+    font-size: 12px;
+    color: #808080;
+    line-height: 30px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+.footer-contents a:hover{
+    color: #ffbc00;
+}
+.footer-contents a:nth-child(1){
+    margin-top: 40px;
+}
+.footer-content-right{
+    width: 20%;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-content-right p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer-content-right img{
+    width: 80px;
+}
+.footer-content-right a{
+    width: 20%;
+    display: block;
+}
+.footer-description{
+    width: 60%;
+    margin: 0 auto;
+    color: #808080;
+    text-align: left;
+    font-size: 12px;
+    line-height: 45px;
+    padding-left: 10px;
+    border-top: 1px solid #454545;
+}
